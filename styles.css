@@ -41,13 +41,14 @@ body {
 }
 
 .nav {
+    top: 30%;
+    position: absolute;
     margin: 0 auto;
     width: 99%;
 }
 
 ul {
     list-style-type: none;
-    position: sticky;
     top: 0;
     margin: 0;
     padding: 0;
@@ -80,7 +81,7 @@ li a:hover {
 .textbox {
     position: relative;
     height: auto;
-    margin: 23px;
+    margin: 35px;
     padding: 20px;
     width: 92%;
     background-color: RGBA(0, 0, 0, 0.3);
@@ -149,6 +150,12 @@ li a:hover {
     color: RGB(200, 200, 0);
     text-size: 20px;
     text-align: center;
+}
+
+.contentholder {
+    position: absolute;
+    width: 98%;
+    top: 37%;
 }
 
 footer {
