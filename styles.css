@@ -142,13 +142,31 @@ li a:hover {
     width: 150px;
 }
 
+.profile2 {
+    position: absolute;
+    right: 290px;
+    top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
 .caption {
     position: absolute;
     top: 20px;
-    right: 160px;
-    width: 15em;
+    right: 165px;
+    width: 9em;
     color: RGB(200, 200, 0);
-    text-size: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.caption2 {
+    position:absolute;
+    top: 20px;
+    right: 440px;
+    width: 9em;
+    color: RGB(200, 200, 0);
+    font-size: 10px;
     text-align: center;
 }
 
@@ -163,6 +181,12 @@ li a:hover {
     height: 36%;
     width: 98%;
     margin: 23%;
+}
+
+.subrace {
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 footer {
